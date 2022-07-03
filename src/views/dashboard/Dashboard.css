@@ -1,5 +1,4 @@
-.dashboard__linegraph {
-  width: 90vw;
-  height: 500px;
-  margin: auto;
+.dashboard__title {
+  text-align: center;
+  color: var(--bg-green-450);
 }

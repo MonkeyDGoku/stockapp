@@ -30,12 +30,12 @@ function LineGraph({ data, ymax }) {
         {/* <CartesianGrid strokeDasharray="3 3" /> */}
         <XAxis dataKey="date" />
         <YAxis domain={[0, 300]} />
-        <ReferenceLine
+        {/* <ReferenceLine
           y={ymax}
           label="Max"
           stroke="red"
           strokeDasharray="3 3"
-        />
+        /> */}
         <Tooltip />
         {/* <Area
           type="monotone"

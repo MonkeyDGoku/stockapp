@@ -108,7 +108,7 @@ const Navbar = () => {
               fontFamily: "monospace",
               fontWeight: 700,
               letterSpacing: ".1rem",
-              color: "inherit",
+              color: "var(--bg-green-450)",
               textDecoration: "none",
             }}
           >
@@ -177,7 +177,7 @@ const Navbar = () => {
               aria-label="Tabs where each tab needs to be selected manually"
             >
               {pages.map((page) => (
-                <Tab key={page} label={page} />
+                <Tab className="menu__item" key={page} label={page} />
               ))}
             </Tabs>
           </Box>
